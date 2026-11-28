@@ -1,0 +1,2022 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HomeScope Tempe | User Guide</title>
+
+    <!-- Original dashboard styling -->
+    <link rel="stylesheet" href="../style.css" />
+
+    <style>
+
+        /* General user guide styling */
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            height: auto;
+            min-height: 100dvh;
+        }
+
+        /* Header link */
+
+        .dashboard-link {
+            margin-left: auto;
+            color: var(--panel);
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        .dashboard-link:hover {
+            color: var(--mint);
+        }
+
+        /* Main user guide container */
+
+       .guide-container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+        /* User guide title */
+
+        .page-title {
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .page-title h1 {
+            margin: 0 0 8px;
+            color: var(--navy);
+            font-size: 2.5rem;
+        }
+
+
+.page-title p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1.1rem;
+}
+
+/* Two-column user guide layout */
+
+.guide-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(220px, 1fr);
+    gap: 32px;
+    align-items: start;
+}
+
+/* Left-side instructional content */
+
+.guide-content {
+    min-width: 0;
+}
+
+.guide-content section {
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+    scroll-margin-top: 24px;
+}
+
+.guide-content h2 {
+    color: var(--navy);
+    font-size: 1.8rem;
+    margin: 0 0 16px;
+}
+
+/* Right-side sticky navigation */
+
+.guide-topics {
+    position: sticky;
+    top: 24px;
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+}
+
+.guide-topics h2 {
+    color: var(--navy);
+    font-size: 1.4rem;
+    margin: 0 0 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+.guide-topics a {
+    display: block;
+    padding: 10px 12px;
+    color: var(--text);
+    text-decoration: none;
+    border-left: 3px solid transparent;
+    font-size: 1rem;
+}
+
+.guide-topics .subtopics a {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 5px 12px;
+    color: var(--muted);
+    line-height: 1.4;
+}
+
+/* Subsection headings in the main content */
+
+.guide-content h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 24px 0 12px;
+    scroll-margin-top: 24px;
+}
+
+/* Responsive layout */
+@media (max-width: 900px) {
+    .guide-layout {
+        grid-template-columns: 1fr;
+    }
+    .guide-topics {
+        position: static;
+        max-height: none;
+        grid-row: 1;
+    }
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+    <!-- Simplified user guide header -->
+    <header class="header">
+
+        <a class="brand" href="../index.html">
+
+            <img src="../images/logo.png" alt="" />
+
+            <span>HomeScope Tempe</span>
+
+        </a>
+
+        <a class="dashboard-link" href="../index.html">
+            Open the Dashboard
+        </a>
+
+    </header>
+
+    <!-- Main user guide -->
+
+    <main class="guide-container">
+
+        <div class="page-title">
+
+            <h1>HomeScope Tempe User Guide</h1>
+
+            <p>
+                Explore Housing, People, and Nearby Amenities in Tempe
+            </p>
+
+
+        </div>
+
+        
+<!-- Two-column user guide layout -->
+
+<div class="guide-layout">
+
+    <!-- Left-side instructional content -->
+
+    <article class="guide-content">
+
+        <!-- Section 1 -->
+
+<section id="introduction">
+
+    <h2>1. Introduction</h2>
+
+    <p>
+        HomeScope Tempe is an interactive WebGIS dashboard designed
+        to help users explore housing costs, population characteristics,
+        and nearby amenities in Tempe, Arizona.
+    </p>
+
+    <p>
+        The dashboard allows residents, students, prospective homebuyers,
+        renters, and other interested users to compare housing and
+        neighborhood characteristics based on their preferences.
+    </p>
+
+    <p>Using HomeScope Tempe, users can:</p>
+
+    <ul>
+        <li>Explore median monthly rent and home values.</li>
+        <li>Filter census block groups based on housing preferences.</li>
+        <li>View household income and population characteristics.</li>
+        <li>Locate transit stops, schools, grocery stores,
+            hospitals, clinics, and parks.</li>
+        <li>Explore nearby amenities using an interactive map.</li>
+    </ul>
+
+    <h3>What is a Census Block Group?</h3>
+
+    <p>
+        A census block group is a small geographic area defined by
+        the U.S. Census Bureau for collecting and reporting statistical
+        information. HomeScope Tempe uses census block groups to
+        display housing, income, and population information.
+    </p>
+
+    <p>
+        The information represents the census block group as a whole
+        and does not describe individual properties or households.
+    </p>
+
+</section>
+        <!-- Section 2 -->
+
+        <section id="website-navigation">
+
+            <h2>2. Navigating the Website</h2>
+
+    <p>
+        The navigation bar is located at the top of the HomeScope
+        Tempe dashboard. It provides access to the interactive map,
+        project information, data sources, and team contact details.
+    </p>
+
+    <figure style="margin: 20px 0;">
+
+        <img src="userguide images/02-website-navigation.png"
+             alt="HomeScope Tempe navigation bar"
+             style="width: 100%; height: auto;
+                    border: 1px solid var(--border);
+                    border-radius: var(--radius);">
+
+        <figcaption style="font-size: 0.85rem;
+                           color: var(--muted);
+                           text-align: center;
+                           margin-top: 8px;">
+            Figure 1. HomeScope Tempe navigation bar.
+        </figcaption>
+
+    </figure>
+
+            <h3 id="logo">2.1 HomeScope Tempe Logo</h3>
+            <p>
+    The HomeScope Tempe logo and project name are located
+    in the upper-left corner of the navigation bar.
+    Click the logo or project name to return to the
+    main dashboard.
+</p>
+
+<h3 id="map-menu">2.2 Map</h3>
+
+<p>
+    The Map option provides access to the main interactive
+    dashboard, where users can filter census block groups,
+    explore housing costs, view population characteristics,
+    and locate nearby amenities.
+</p>
+
+<p>
+    Click Map in the upper-right corner of the navigation
+    bar to open the main dashboard.
+</p>
+
+            
+
+            <h3 id="about-menu">2.3 About</h3>
+            <p>
+    Click <strong>About</strong> in the top navigation bar
+    to open the About HomeScope Tempe window.
+    This window explains the purpose of the dashboard
+    and provides guidance on interpreting the information.
+</p>
+
+<p>The About window provides information on:</p>
+
+<ul>
+    <li>The purpose of HomeScope Tempe.</li>
+    <li>Housing, population, and amenity information.</li>
+    <li>Understanding census block group statistics.</li>
+    <li>How nearby amenities are measured.</li>
+    <li>Limitations of the dashboard.</li>
+</ul>
+
+<figure style="margin: 20px 0;">
+
+    <img src="userguide images/03-about-window.png"
+         alt="About HomeScope Tempe pop-up window"
+         style="width: 100%; height: auto;
+                border: 1px solid var(--border);
+                border-radius: var(--radius);">
+
+    <figcaption style="font-size: 0.85rem;
+                       color: var(--muted);
+                       text-align: center;
+                       margin-top: 8px;">
+        Figure 2. About HomeScope Tempe window.
+    </figcaption>
+
+</figure>
+
+<p>
+    To close the window and return to the interactive map,
+    click the <strong>&times;</strong> button in the
+    upper-right corner of the pop-up window.
+</p>
+
+            <h3 id="data-menu">2.4 Data</h3>
+            <p>
+    Click <strong>Data</strong> in the top navigation bar
+    to open the Data Sources window. This window identifies
+    the organizations and agencies that provide the data
+    displayed in HomeScope Tempe.
+</p>
+
+<p>The Data Sources window includes information on:</p>
+
+<ul>
+    <li>Housing and demographic data.</li>
+    <li>Transit stops.</li>
+    <li>Schools.</li>
+    <li>Grocery stores.</li>
+    <li>Hospitals and clinics.</li>
+    <li>Parks.</li>
+    <li>Basemaps.</li>
+    <li>Data limitations.</li>
+</ul>
+
+<figure style="margin: 20px 0;">
+
+    <img src="userguide images/04-data-window.png"
+         alt="HomeScope Tempe Data Sources window"
+         style="width: 100%; height: auto;
+                border: 1px solid var(--border);
+                border-radius: var(--radius);">
+
+    <figcaption style="font-size: 0.85rem;
+                       color: var(--muted);
+                       text-align: center;
+                       margin-top: 8px;">
+        Figure 3. HomeScope Tempe Data Sources window.
+    </figcaption>
+
+</figure>
+
+<p>
+    For more information about the datasets and their
+    limitations, refer to
+    <a href="#understanding-data">Section 7: Understanding the Data</a>
+    of this user guide.
+</p>
+
+<p>
+    To close the Data Sources window, click the
+    <strong>&times;</strong> button in the upper-right corner.
+</p>
+
+            <h3 id="contact-menu">2.5 Contact</h3>
+            <p>
+    Click <strong>Contact</strong> in the top navigation bar
+    to open the Contact the Team window. This window provides
+    contact information for the HomeScope Tempe project team.
+</p>
+
+<p>Users can contact the team to:</p>
+
+<ul>
+    <li>Ask questions about the dashboard.</li>
+    <li>Provide feedback and suggestions.</li>
+    <li>Report missing or incorrect information.</li>
+    <li>Request clarification about the project.</li>
+</ul>
+
+<figure style="margin: 20px 0;">
+
+    <img src="userguide images/05-contact-window.png"
+         alt="HomeScope Tempe Contact the Team window"
+         style="width: 100%; height: auto;
+                border: 1px solid var(--border);
+                border-radius: var(--radius);">
+
+    <figcaption style="font-size: 0.85rem;
+                       color: var(--muted);
+                       text-align: center;
+                       margin-top: 8px;">
+        Figure 4. HomeScope Tempe Contact the Team window.
+    </figcaption>
+
+</figure>
+
+<p>
+    Click a team member's email address in the Contact window
+    to open your email application and send a message.
+</p>
+
+<p>
+    For more information about the team members and their
+    contributions, refer to
+    <a href="#project-team">Section 8: Project Team</a>
+    of this user guide.
+</p>
+
+<p>
+    To close the Contact window, click the
+    <strong>&times;</strong> button in the upper-right corner.
+</p>
+
+        </section>
+
+        <!-- Section 3 -->
+
+        <section id="dashboard-overview">
+
+            <h2>3. Dashboard Overview</h2>
+
+            <p>
+        The HomeScope Tempe dashboard is organized into
+        three main panels. Each panel provides different
+        tools and information to help users explore
+        housing and neighborhood characteristics.
+    </p>
+
+    <!-- Dashboard overview screenshot -->
+
+    <figure style="margin: 20px 0;">
+
+        <div style="position: relative;">
+
+            <img src="userguide images/01-dashboard-overview.png"
+                 alt="HomeScope Tempe dashboard showing the filter,
+                      interactive map, and information panels"
+                 style="width: 100%; height: auto; display: block;
+                        border: 1px solid var(--border);
+                        border-radius: var(--radius);">
+
+            <!-- Number 1: Left panel -->
+
+            <span style="position: absolute;
+                         top: -16px; left: 9%;
+                         transform: translateX(-50%);
+                         background: var(--navy);
+                         color: white;
+                         border: 2px solid white;
+                         border-radius: 50%;
+                         width: 32px; height: 32px;
+                         display: grid; place-items: center;
+                         font-weight: 700;">
+                1
+            </span>
+
+            <!-- Number 2: Center panel -->
+
+            <span style="position: absolute;
+                         top: -16px; left: 49%;
+                         transform: translateX(-50%);
+                         background: var(--navy);
+                         color: white;
+                         border: 2px solid white;
+                         border-radius: 50%;
+                         width: 32px; height: 32px;
+                         display: grid; place-items: center;
+                         font-weight: 700;">
+                2
+            </span>
+
+            <!-- Number 3: Right panel -->
+
+            <span style="position: absolute;
+                         top: -16px; left: 90%;
+                         transform: translateX(-50%);
+                         background: var(--navy);
+                         color: white;
+                         border: 2px solid white;
+                         border-radius: 50%;
+                         width: 32px; height: 32px;
+                         display: grid; place-items: center;
+                         font-weight: 700;">
+                3
+            </span>
+
+        </div>
+
+        <figcaption style="font-size: 0.85rem;
+                           color: var(--muted);
+                           text-align: center;
+                           margin-top: 8px;">
+            Figure 5. HomeScope Tempe dashboard overview.
+        </figcaption>
+
+    </figure>
+
+    <h3 id="left-panel">3.1 Left Panel — Filter Census Block Groups</h3>
+
+    <p>
+        The left panel allows users to filter census block
+        groups based on median monthly rent and median home
+        value. Users can also choose which amenities to
+        display on the map.
+    </p>
+
+    <p>
+        For detailed instructions, refer to
+        <a href="#housing-filters">Section 4: Filter Census Block Groups</a>.
+    </p>
+
+    <h3 id="center-panel">3.2 Center Panel — Explore Tempe Housing</h3>
+
+    <p>
+        The center panel contains the interactive map of Tempe.
+        Users can zoom, move around the map, explore census block
+        groups, change basemaps, and view amenity locations.
+    </p>
+
+    <p>
+        For detailed instructions, refer to
+        <a href="#interactive-map">Section 5: Explore Tempe Housing</a>.
+    </p>
+
+    <h3 id="right-panel">3.3 Right Panel — Selected Census Block Group</h3>
+
+    <p>
+        The right panel displays information about the census
+        block group selected on the map, including housing
+        costs, household income, population characteristics,
+        age distribution, and nearby amenities.
+    </p>
+
+    <p>
+        For detailed instructions, refer to
+        <a href="#selected-block-group">Section 6: Selected Census Block Group</a>.
+    </p>
+
+</section>
+
+        <!-- Section 4 -->
+
+        <section id="housing-filters">
+
+            <h2>4. Filter Census Block Groups</h2>
+           <!-- Side-by-side screenshot and information -->
+
+<div style="display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 32px;
+            margin: 20px 0;">
+
+    <!-- Left side: Screenshot -->
+
+    <figure style="flex: 0 1 260px; margin: 0;">
+
+        <img src="userguide images/06-filter-panel.png"
+             alt="HomeScope Tempe filter panel"
+             style="width: 100%; height: auto;
+                    display: block;
+                    border: 1px solid var(--border);
+                    border-radius: var(--radius);">
+
+        <figcaption style="font-size: 0.85rem;
+                           color: var(--muted);
+                           text-align: center;
+                           margin-top: 8px;">
+            Figure 6. Filter Census Block Groups panel.
+        </figcaption>
+
+    </figure>
+
+    <!-- Right side: All informational text -->
+
+    <div style="flex: 1 1 240px;">
+
+        <p style="margin-top: 0;">
+            The filter panel is located on the left side of the
+            HomeScope Tempe dashboard. It allows users to identify
+            census block groups based on their preferred monthly
+            rent and home value ranges. Users can also choose
+            which amenities to display on the interactive map.
+        </p>
+
+        <p>The filter panel contains five main components:</p>
+
+        <ol>
+            <li>Monthly Rent (Median)</li>
+            <li>Home Value (Median)</li>
+            <li>Amenities to Show on Map</li>
+            <li>Apply Filters</li>
+            <li>Reset Filters</li>
+        </ol>
+
+        <p>
+            In the example shown in Figure 6, a monthly rent
+            range of $1,500 to $2,000 has been applied.
+            The result indicates that 52 of the 119 census
+            block groups match the selected housing criteria.
+            All five amenity layers are selected for display
+            on the map.
+        </p>
+
+    </div>
+
+</div>
+            <h3 id="monthly-rent">4.1 Monthly Rent</h3>
+            <!-- Monthly rent screenshot and instructions -->
+
+<div style="display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 32px;
+            margin: 20px 0;">
+
+    <!-- Left side: Screenshot -->
+
+    <figure style="flex: 0 1 260px; margin: 0;">
+
+        <img src="userguide images/07-monthly-rent.png"
+             alt="Monthly rent filter showing a range
+                  of $1,000 to $2,000"
+             style="width: 100%; height: auto;
+                    display: block;
+                    border: 1px solid var(--border);
+                    border-radius: var(--radius);">
+
+        <figcaption style="font-size: 0.85rem;
+                           color: var(--muted);
+                           text-align: center;
+                           margin-top: 8px;">
+            Figure 7. Monthly Rent filter.
+        </figcaption>
+
+    </figure>
+
+    <!-- Right side: Instructions -->
+
+    <div style="flex: 1 1 240px;">
+
+        <p style="margin-top: 0;">
+            The Monthly Rent filter allows users to identify
+            census block groups within their preferred
+            median monthly rent range.
+        </p>
+
+        <p><strong>How to use this filter:</strong></p>
+
+        <ol>
+            <li>Check the Filter by monthly rent checkbox.</li>
+            <li>Enter the desired minimum monthly rent.</li>
+            <li>Enter the desired maximum monthly rent.</li>
+            <li>Click Apply Filters to view matching
+                census block groups on the map.</li>
+        </ol>
+
+        <p>
+            In Figure 7, the selected monthly rent range
+            is $1,000 to $2,000.
+        </p>
+
+        <p>
+            Uncheck the Filter by monthly rent checkbox
+            if you do not want to filter by rent, and
+            click Apply Filters.
+        </p>
+
+        <p>
+            <strong>Note:</strong> Median monthly rent represents
+            a census block group-level statistic, not the
+            actual rental price of an individual property.
+        </p>
+
+    </div>
+
+</div>
+
+            <h3 id="home-value">4.2 Home Value</h3>
+            <!-- Home value screenshot and instructions -->
+
+<div style="display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 32px;
+            margin: 20px 0;">
+
+    <!-- Left side: Screenshot -->
+
+    <figure style="flex: 0 1 260px; margin: 0;">
+
+        <img src="userguide images/08-home-value.png"
+             alt="Home value filter showing a range
+                  of $200,000 to $500,000"
+             style="width: 100%; height: auto;
+                    display: block;
+                    border: 1px solid var(--border);
+                    border-radius: var(--radius);">
+
+        <figcaption style="font-size: 0.85rem;
+                           color: var(--muted);
+                           text-align: center;
+                           margin-top: 8px;">
+            Figure 8. Home Value filter.
+        </figcaption>
+
+    </figure>
+
+    <!-- Right side: Instructions -->
+
+    <div style="flex: 1 1 240px;">
+
+        <p style="margin-top: 0;">
+            The Home Value filter allows users to identify
+            census block groups within their preferred
+            median home value range.
+        </p>
+
+        <p><strong>How to use this filter:</strong></p>
+
+        <ol>
+            <li>Check the Filter by home value checkbox.</li>
+            <li>Enter the desired minimum home value.</li>
+            <li>Enter the desired maximum home value.</li>
+            <li>Click Apply Filters to view matching
+                census block groups on the map.</li>
+        </ol>
+
+        <p>
+            In Figure 8, the selected home value range
+            is $200,000 to $500,000.
+        </p>
+
+        <p>
+            Uncheck the Filter by home value checkbox
+            if you do not want to filter by home value,
+            and click Apply Filters.
+        </p>
+
+        <p>
+            <strong>Note:</strong> Median home value represents
+            a census block group-level statistic, not the
+            actual sale price of an individual property.
+        </p>
+
+    </div>
+
+</div>
+
+            <h3 id="amenity-filters">4.3 Amenities to Show on Map</h3>
+            <!-- Amenity screenshot and instructions -->
+
+<div style="display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 32px;
+            margin: 20px 0;">
+
+    <!-- Left side: Screenshot -->
+
+    <figure style="flex: 0 1 260px; margin: 0;">
+
+        <img src="userguide images/09-amenity-filters.png"
+             alt="Amenity selection checkboxes"
+             style="width: 100%; height: auto;
+                    display: block;
+                    border: 1px solid var(--border);
+                    border-radius: var(--radius);">
+
+        <figcaption style="font-size: 0.85rem;
+                           color: var(--muted);
+                           text-align: center;
+                           margin-top: 8px;">
+            Figure 9. Amenities to Show on Map.
+        </figcaption>
+
+    </figure>
+
+    <!-- Right side: Instructions -->
+
+    <div style="flex: 1 1 240px;">
+
+        <p style="margin-top: 0;">
+            The Amenities to Show on Map section allows
+            users to choose which types of facilities
+            and services to display on the interactive map.
+        </p>
+
+        <p><strong>Available amenity layers:</strong></p>
+
+        <ul>
+            <li><strong>Transit Stops:</strong> Bus stops
+                and light rail stations.</li>
+
+            <li><strong>Schools:</strong> School locations.</li>
+
+            <li><strong>Grocery Stores:</strong> Locations
+                of grocery stores.</li>
+
+            <li><strong>Hospitals &amp; Clinics:</strong>
+                Healthcare facilities.</li>
+
+            <li><strong>Parks:</strong> Park locations.</li>
+        </ul>
+
+        <p><strong>How to display amenities:</strong></p>
+
+        <ol>
+            <li>Check the checkbox next to the desired
+                amenity category.</li>
+
+            <li>Select multiple categories to explore
+                different amenities together.</li>
+
+            <li>Uncheck a category to hide its locations
+                from the map.</li>
+        </ol>
+
+        <p>
+            In Figure 9, all five amenity categories
+            are selected for display on the map.
+        </p>
+
+    </div>
+
+</div>
+
+            <h3 id="apply-filters">4.4 Apply Filters</h3>
+            <!-- Apply Filters screenshot and instructions -->
+
+<div style="display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 32px;
+            margin: 20px 0;">
+
+    <!-- Left side: Screenshot -->
+
+    <figure style="flex: 0 1 260px; margin: 0;">
+
+        <img src="userguide images/10-apply-filters.png"
+             alt="Apply Filters and Reset Filters buttons
+                  with matching block group results"
+             style="width: 100%; height: auto;
+                    display: block;
+                    border: 1px solid var(--border);
+                    border-radius: var(--radius);">
+
+        <figcaption style="font-size: 0.85rem;
+                           color: var(--muted);
+                           text-align: center;
+                           margin-top: 8px;">
+            Figure 10. Apply Filters and matching results.
+        </figcaption>
+
+    </figure>
+
+    <!-- Right side: Instructions -->
+
+    <div style="flex: 1 1 240px;">
+
+        <p style="margin-top: 0;">
+            The Apply Filters button is located at the
+            bottom of the left panel. It updates the map
+            based on the selected housing criteria.
+        </p>
+
+        <p><strong>How to apply filters:</strong></p>
+
+        <ol>
+            <li>Select the desired housing filters.</li>
+
+            <li>Enter the minimum and maximum values.</li>
+
+            <li>Click the Apply Filters button.</li>
+
+            <li>Review the matching census block groups
+                on the interactive map.</li>
+        </ol>
+
+        <p><strong>Understanding the results:</strong></p>
+
+        <p>
+            The message below the filter buttons indicates
+            how many census block groups match the selected
+            housing criteria out of the total number of
+            block groups included in the dashboard.
+        </p>
+
+        <p>
+            Users can modify their housing preferences
+            and click Apply Filters again to update
+            the results.
+        </p>
+
+    </div>
+
+</div>
+            
+
+            <h3 id="reset-filters">4.5 Reset Filters</h3>
+            <p>
+    The Reset Filters button is located below the
+    Apply Filters button, as shown in Figure 10.
+    It allows users to clear their current filter
+    selections and begin a new housing search.
+</p>
+
+<p><strong>How to reset filters:</strong></p>
+
+<ol>
+    <li>Click the <strong>Reset Filters</strong> button.</li>
+
+    <li>Review the updated filter settings and map.</li>
+
+    <li>Select new housing preferences and amenity
+        categories as needed.</li>
+
+    <li>Click Apply Filters to begin a new search.</li>
+</ol>
+
+<p>
+    This feature is useful when users want to explore
+    different housing price ranges or compare
+    different housing preferences.
+</p>
+
+        </section>
+
+        <!-- Section 5 -->
+
+        <section id="interactive-map">
+
+            <h2>5. Explore Tempe Housing</h2>
+            <p>
+    The Explore Tempe Housing panel is located in the
+    center of the HomeScope Tempe dashboard. It contains
+    an interactive map that allows users to explore census
+    block groups, visualize housing information, and
+    locate nearby amenities.
+</p>
+
+<p>
+    Users can move around the map, zoom in and out,
+    change basemaps, and select individual census block
+    groups to view detailed information.
+</p>
+
+<!-- Interactive map screenshot -->
+
+<figure style="margin: 20px 0;">
+
+    <img src="userguide images/11-interactive-map.png"
+         alt="Explore Tempe Housing interactive map showing
+              census block groups, amenities, and map controls"
+         style="width: 100%; height: auto;
+                display: block;
+                border: 1px solid var(--border);
+                border-radius: var(--radius);">
+
+    <figcaption style="font-size: 0.85rem;
+                       color: var(--muted);
+                       text-align: center;
+                       margin-top: 8px;">
+        Figure 11. Explore Tempe Housing interactive map.
+    </figcaption>
+
+</figure>
+
+<p>The interactive map contains seven main components:</p>
+
+<ol>
+    <li>Map Navigation</li>
+    <li>Zoom Controls</li>
+    <li>Basemap and Layer Controls</li>
+    <li>Map Colors</li>
+    <li>Amenity Icons and Clusters</li>
+    <li>Selecting a Census Block Group</li>
+    <li>Map Scale and Places in View</li>
+</ol>
+
+<p>
+    Each of these components is explained in the
+    following subsections.
+</p>
+
+            <h3 id="map-navigation">5.1 Map Navigation</h3>
+            <p>
+    The interactive map allows users to explore different
+    areas of Tempe and its surrounding areas.
+    Users can move the map in any direction to examine
+    census block groups and nearby amenities.
+</p>
+
+<p><strong>How to navigate the map:</strong></p>
+
+<ol>
+    <li>Place your mouse cursor anywhere on the map.</li>
+
+    <li>Click and hold the left mouse button.</li>
+
+    <li>Drag the map in the desired direction.</li>
+
+    <li>Release the mouse button when you reach
+        the area you want to explore.</li>
+</ol>
+
+<p>
+    Moving the map allows users to explore different
+    locations without changing their selected housing
+    filters.
+</p>
+
+            <h3 id="zoom-controls">5.2 Zoom Controls</h3>
+            <!-- Zoom controls screenshot and instructions -->
+
+<div style="display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 32px;
+            margin: 20px 0;">
+
+    <!-- Left side: Screenshot -->
+
+    <figure style="flex: 0 1 320px; margin: 0;">
+
+        <img src="userguide images/12-zoom-controls.png"
+             alt="Zoom in and zoom out buttons located
+                  in the upper-left corner of the map"
+             style="width: 100%; height: auto;
+                    display: block;
+                    border: 1px solid var(--border);
+                    border-radius: var(--radius);">
+
+        <figcaption style="font-size: 0.85rem;
+                           color: var(--muted);
+                           text-align: center;
+                           margin-top: 8px;">
+            Figure 12. Map zoom controls.
+        </figcaption>
+
+    </figure>
+
+    <!-- Right side: Instructions -->
+
+    <div style="flex: 1 1 240px;">
+
+        <p style="margin-top: 0;">
+            The zoom controls are located in the upper-left
+            corner of the interactive map. They allow users
+            to change the level of detail displayed on the map.
+        </p>
+
+        <p><strong>How to use the zoom controls:</strong></p>
+
+        <ul>
+            <li><strong>Zoom In (+):</strong> Click the plus
+                button to view a smaller geographic area
+                in greater detail.</li>
+
+            <li><strong>Zoom Out (-):</strong> Click the minus
+                button to view a larger geographic area.</li>
+        </ul>
+
+        <p>
+            Users can also use the mouse scroll wheel
+            to zoom in and out of the map.
+        </p>
+
+        <p>
+            Zooming in helps users explore individual
+            census block groups and amenity locations,
+            while zooming out provides a broader view
+            of Tempe and its surrounding areas.
+        </p>
+
+    </div>
+
+</div>
+
+            <h3 id="basemap-controls">5.3 Basemap and Layer Controls</h3>
+            <!-- Basemap screenshot and instructions -->
+
+<div style="display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 32px;
+            margin: 20px 0;">
+
+    <!-- Left side: Screenshot -->
+
+    <figure style="flex: 0 1 320px; margin: 0;">
+
+        <img src="userguide images/13-basemap-controls.png"
+             alt="Basemap selection menu showing
+                  OpenStreetMap and USGS Topo"
+             style="width: 100%; height: auto;
+                    display: block;
+                    border: 1px solid var(--border);
+                    border-radius: var(--radius);">
+
+        <figcaption style="font-size: 0.85rem;
+                           color: var(--muted);
+                           text-align: center;
+                           margin-top: 8px;">
+            Figure 13. Basemap selection controls.
+        </figcaption>
+
+    </figure>
+
+    <!-- Right side: Instructions -->
+
+    <div style="flex: 1 1 240px;">
+
+        <p style="margin-top: 0;">
+            The basemap control is located below the zoom
+            buttons in the upper-left corner of the map.
+            It allows users to change the background map
+            according to their viewing preferences.
+        </p>
+
+        <p><strong>Available basemaps:</strong></p>
+
+        <ul>
+            <li>
+                <strong>OpenStreetMap:</strong> Displays streets,
+                buildings, landmarks, and other geographic
+                features for general map exploration.
+            </li>
+
+            <li>
+                <strong>USGS Topo:</strong> Displays topographic
+                information, terrain, elevation contours,
+                and geographic features.
+            </li>
+        </ul>
+
+        <p><strong>How to change the basemap:</strong></p>
+
+        <ol>
+            <li>Move your mouse over the Layers icon.</li>
+
+            <li>Select OpenStreetMap or USGS Topo
+                from the expanded menu.</li>
+
+            <li>View the updated background map.</li>
+        </ol>
+
+        <p>
+            Changing the basemap changes the background
+            appearance without changing the selected
+            housing filters or amenity layers.
+        </p>
+
+    </div>
+
+</div>
+
+<h3 id="map-clusters">5.4 Amenity Icons and Clusters</h3>
+<p>
+    Amenities are displayed on the interactive map
+    using distinct icons and geographic features.
+    Users can show or hide different amenity categories
+    using the checkboxes in the left-side filter panel.
+</p>
+
+<!-- Amenity screenshot - activate when image is available
+
+<figure style="margin: 20px 0;">
+
+    <img src="userguide images/14-amenity-clusters.png"
+         alt="Individual amenity icons and numbered
+              marker clusters on the interactive map"
+         style="width: 100%; height: auto;
+                display: block;
+                border: 1px solid var(--border);
+                border-radius: var(--radius);">
+
+    <figcaption style="font-size: 0.85rem;
+                       color: var(--muted);
+                       text-align: center;
+                       margin-top: 8px;">
+        Figure 14. Amenity icons and marker clusters.
+    </figcaption>
+
+</figure>
+
+-->
+
+<h4>Understanding Map Symbols</h4>
+
+<ul>
+    <li>
+        <strong>Individual Icons:</strong>
+        Represent individual amenity locations, such as
+        bus stops, light rail stations, schools,
+        grocery stores, hospitals, and clinics.
+    </li>
+
+    <li>
+        <strong>Numbered Clusters:</strong>
+        Represent multiple nearby amenity markers
+        grouped together to reduce map congestion.
+        The number indicates how many markers are
+        included in that cluster.
+    </li>
+
+    <li>
+        <strong>Park Boundaries:</strong>
+        Green shaded areas represent park locations
+        and their geographic boundaries.
+    </li>
+</ul>
+
+<h4>How to Explore Amenities</h4>
+
+<ol>
+    <li>
+        Enable the desired amenity categories
+        using the checkboxes in the left panel.
+    </li>
+
+    <li>
+        Zoom in or click a numbered cluster to
+        explore the individual amenity locations.
+    </li>
+
+    <li>
+        Hover over an individual amenity to view
+        its name.
+    </li>
+
+    <li>
+        Click an individual amenity to open a
+        popup containing additional information.
+    </li>
+</ol>
+
+<p>
+    Marker clusters automatically adjust as users
+    zoom in or out, making it easier to explore
+    amenities at different geographic scales.
+</p>
+
+<h3 id="select-block-group">5.5 Selecting a Census Block Group</h3>
+<p>
+    Users can select individual census block groups
+    on the interactive map to explore their housing
+    costs, household income, demographic characteristics,
+    and nearby amenities.
+</p>
+
+<!-- Selected block group screenshot - activate when image is available
+
+<figure style="margin: 20px 0;">
+
+    <img src="userguide images/15-select-block-group.png"
+         alt="Selected census block group on the interactive map"
+         style="width: 100%; height: auto;
+                display: block;
+                border: 1px solid var(--border);
+                border-radius: var(--radius);">
+
+    <figcaption style="font-size: 0.85rem;
+                       color: var(--muted);
+                       text-align: center;
+                       margin-top: 8px;">
+        Figure 15. Selecting a census block group on the map.
+    </figcaption>
+
+</figure>
+
+-->
+
+<p><strong>How to select a census block group:</strong></p>
+
+<ol>
+    <li>
+        Navigate to the area of interest on the
+        interactive map.
+    </li>
+
+    <li>
+        Apply the preferred housing filters,
+        if needed, to identify matching census
+        block groups.
+    </li>
+
+    <li>
+        Click directly on a census block group
+        to select it.
+    </li>
+
+    <li>
+        The selected census block group boundary
+        will be highlighted on the map.
+    </li>
+
+    <li>
+        View the corresponding housing,
+        demographic, and nearby amenity information
+        in the right-side panel.
+    </li>
+
+    <li>
+        Click another census block group to
+        explore and compare its information.
+    </li>
+</ol>
+
+<p>
+    For a detailed explanation of the information
+    displayed in the right-side panel, refer to
+    <a href="#selected-block-group"
+       style="color: var(--teal);">
+        Section 6: Selected Census Block Group
+    </a>.
+</p>
+
+        </section>
+
+        <!-- Section 6 -->
+
+        <section id="selected-block-group">
+
+<h2>6. Selected Census Block Group</h2>
+
+    <p>
+        The right-side information panel displays housing,
+        income, demographic, and nearby amenity information
+        for the selected census block group. Click on a
+        census block group on the interactive map to view
+        its details. The information automatically updates
+        when a different block group is selected.
+    </p>
+
+    <!-- Single screenshot and all four subsections -->
+
+    <div style="display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                gap: 32px;
+                margin: 20px 0;">
+
+        <!-- Left side: Complete information panel -->
+
+        <figure style="flex: 0 1 35%; margin: 0;">
+
+            <img src="userguide images/18-selected-block-group.png"
+                 alt="Selected census block group panel showing
+                      housing, income, demographics, age
+                      distribution, and nearby amenities"
+                 style="width: 100%; height: auto;
+                        display: block;
+                        border: 1px solid var(--border);
+                        border-radius: var(--radius);">
+
+            <figcaption style="font-size: 0.85rem;
+                               color: var(--muted);
+                               text-align: center;
+                               margin-top: 8px;">
+                Figure 16. Selected census block group
+                information panel.
+            </figcaption>
+
+        </figure>
+
+        <!-- Right side: Detailed explanations -->
+
+        <div style="flex: 1 1 280px;">
+
+            <h3 id="housing-income" style="margin-top: 0;">
+                6.1 Housing and Income Details
+            </h3>
+
+            <p>
+                This section provides an overview of housing
+                costs and household income within the
+                selected census block group.
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Median Monthly Rent:</strong>
+                    The median monthly rent reported for
+                    the census block group.
+                </li>
+
+                <li>
+                    <strong>Median Home Value:</strong>
+                    The median reported value of
+                    owner-occupied housing units.
+                </li>
+
+                <li>
+                    <strong>Median Household Income:</strong>
+                    The median annual income of households
+                    within the census block group.
+                </li>
+            </ul>
+
+            <p>
+                Users can compare these values across
+                different census block groups to explore
+                housing costs and income conditions.
+            </p>
+
+            <h3 id="demographics">6.2 Who Lives Here?</h3>
+
+            <p>
+                This section describes the population and
+                housing occupancy characteristics of the
+                selected census block group.
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Population:</strong>
+                    The total estimated number of residents.
+                </li>
+
+                <li>
+                    <strong>Median Age:</strong>
+                    The age that divides the population
+                    into two equal halves.
+                </li>
+
+                <li>
+                    <strong>Renter-Occupied Homes:</strong>
+                    The number and percentage of occupied
+                    housing units occupied by renters.
+                </li>
+
+                <li>
+                    <strong>Owner-Occupied Homes:</strong>
+                    The number and percentage of occupied
+                    housing units occupied by their owners.
+                </li>
+            </ul>
+
+            <h3 id="age-distribution">6.3 Age Distribution</h3>
+
+            <p>
+                The horizontal stacked bar chart shows
+                the percentage of residents belonging
+                to four age groups:
+            </p>
+
+            <ul>
+                <li><strong>Under 18:</strong> Children and adolescents.</li>
+                <li><strong>18-39:</strong> Adults aged 18 to 39.</li>
+                <li><strong>40-64:</strong> Adults aged 40 to 64.</li>
+                <li><strong>65+:</strong> Adults aged 65 and older.</li>
+            </ul>
+
+            <p>
+                Each colored segment represents the
+                proportion of the total population within
+                that age group. Larger segments indicate
+                higher population shares.
+            </p>
+
+            <h3 id="nearby-amenities">6.4 Nearby Amenities</h3>
+
+            <p>
+                This section displays the number of
+                amenities located within a one-mile radius
+                of the selected census block group's
+                centroid (geographic center).
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Transit Stops:</strong>
+                    Total bus stops and light rail stations,
+                    with separate counts for each type.
+                </li>
+
+                <li>
+                    <strong>Schools:</strong>
+                    Number of school locations.
+                </li>
+
+                <li>
+                    <strong>Grocery Stores:</strong>
+                    Number of grocery store locations.
+                </li>
+
+                <li>
+                    <strong>Hospitals &amp; Clinics:</strong>
+                    Number of healthcare facility locations.
+                </li>
+
+                <li>
+                    <strong>Parks:</strong>
+                    Number of nearby parks.
+                </li>
+            </ul>
+
+            <p>
+                <strong>Note:</strong> The one-mile distance
+                is measured as a straight-line distance
+                from the block group centroid. It does not
+                represent actual walking distance, driving
+                distance, or travel time.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- Section 7 -->
+
+        <section id="understanding-data">
+
+            <h2>7. Understanding the Data</h2>
+
+            <h3 id="data-sources">7.1 Data Sources</h3>
+            <p>
+    HomeScope Tempe uses housing, demographic, and
+    geographic data from federal, regional, and local
+    government agencies. The following table summarizes
+    the data sources used in the dashboard.
+</p>
+
+<!-- Data sources table -->
+
+<div style="overflow-x: auto; margin: 20px 0;">
+
+    <table style="width: 100%;
+                  border-collapse: collapse;
+                  font-size: 0.95rem;">
+
+        <thead style="background: #294f61; color: white;">
+            <tr>
+                <th style="padding: 12px; text-align: left;">
+                    Data Category
+                </th>
+
+                <th style="padding: 12px; text-align: left;">
+                    Data Source
+                </th>
+
+                <th style="padding: 12px; text-align: left;">
+                    Information Used
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr style="background: #ffffff;">
+                <td>Housing and Demographics</td>
+                <td>U.S. Census Bureau (ACS)</td>
+                <td>Median rent, home value, household
+                    income, population, age, and
+                    housing occupancy</td>
+            </tr>
+
+            <tr style="background: #e8f4f2;">
+                <td>Census Block Groups</td>
+                <td>U.S. Census Bureau</td>
+                <td>Census block group boundaries
+                    and geographic identifiers</td>
+            </tr>
+
+            <tr style="background: #ffffff;">
+                <td>Public Transportation</td>
+                <td>Valley Metro</td>
+                <td>Bus stops and light rail stations</td>
+            </tr>
+
+            <tr style="background: #e8f4f2;">
+                <td>Schools</td>
+                <td>Arizona Department of Education</td>
+                <td>School locations and attributes</td>
+            </tr>
+
+            <tr style="background: #ffffff;">
+                <td>Grocery Stores</td>
+                <td>Maricopa Association of
+                    Governments (MAG)</td>
+                <td>Grocery store locations</td>
+            </tr>
+
+            <tr style="background: #e8f4f2;">
+                <td>Healthcare Facilities</td>
+                <td>Arizona Department of Health
+                    Services (ADHS)</td>
+                <td>Hospital and clinic locations</td>
+            </tr>
+
+            <tr style="background: #ffffff;">
+                <td>Parks</td>
+                <td>City of Tempe</td>
+                <td>Park locations and boundaries</td>
+            </tr>
+
+            <tr style="background: #e8f4f2;">
+                <td>Basemaps</td>
+                <td>OpenStreetMap contributors
+                    and USGS The National Map</td>
+                <td>Street maps and topographic maps</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <p style="font-size: 0.85rem;
+              color: var(--muted);
+              text-align: center;
+              margin-top: 8px;">
+        Table 1. Data sources used in HomeScope Tempe.
+    </p>
+
+</div>
+
+<style>
+    #understanding-data table td,
+    #understanding-data table th {
+        border: 1px solid var(--border);
+        padding: 12px;
+        vertical-align: top;
+    }
+</style>
+
+            <h3 id="methodology">7.2 Methodology</h3>
+            <p>
+    HomeScope Tempe combines housing, demographic,
+    and amenity data to help users explore housing
+    affordability and neighborhood characteristics
+    across Tempe.
+</p>
+
+<h4>Geographic Unit of Analysis</h4>
+
+<p>
+    Census block groups are used as the primary
+    geographic unit of analysis. Housing and demographic
+    information is associated with each census block
+    group using its unique geographic identifier (GEOID).
+</p>
+
+<h4>Housing Affordability Filters</h4>
+
+<p>
+    Users can identify census block groups based on
+    their preferred monthly rent and home value ranges.
+    When both filters are enabled, a block group must
+    satisfy both criteria to match the selected filters.
+    The dashboard displays the number of matching
+    census block groups.
+</p>
+
+<h4>Nearby Amenity Analysis</h4>
+
+<p>
+    Nearby amenities are identified using a one-mile
+    radius around the centroid of each census block
+    group. The number of transit stops, schools,
+    grocery stores, hospitals and clinics, and parks
+    within this distance is displayed in the
+    selected block group information panel.
+</p>
+
+<p>
+    The one-mile radius represents straight-line
+    distance rather than distance along a road
+    or pedestrian network.
+</p>
+
+<h4>Interactive Map Visualization</h4>
+
+<p>
+    Geographic data is displayed using GeoJSON layers
+    and the Leaflet JavaScript mapping library.
+    Users can interact with census block groups,
+    control amenity visibility, change basemaps,
+    and explore housing and demographic information
+    through the interactive dashboard.
+</p>
+
+            <h3 id="limitations">7.3 Limitations</h3>
+            <p>
+    HomeScope Tempe is designed as an exploratory tool
+    for understanding housing affordability and
+    neighborhood characteristics. Users should consider
+    the following limitations when interpreting
+    the information.
+</p>
+
+<ul>
+    <li>
+        <strong>Geographic Scale:</strong>
+        Housing and demographic information is reported
+        at the census block group level and does not
+        represent individual households or properties.
+    </li>
+
+    <li>
+        <strong>Housing Cost Estimates:</strong>
+        Median monthly rent and median home value
+        are Census estimates and may differ from
+        current rental listings and property prices.
+    </li>
+
+    <li>
+        <strong>Data Availability:</strong>
+        Some census block groups may have missing
+        estimates. Data from different sources may
+        also represent different collection periods.
+    </li>
+
+    <li>
+        <strong>Amenity Accessibility:</strong>
+        Nearby amenities are measured within a one-mile
+        radius of the census block group centroid.
+        This does not account for road networks,
+        walking routes, physical barriers, or travel time.
+    </li>
+
+    <li>
+        <strong>Amenity Characteristics:</strong>
+        The number of nearby amenities does not
+        necessarily indicate their quality, capacity,
+        affordability, or availability of services.
+    </li>
+
+    <li>
+        <strong>Housing Affordability:</strong>
+        The dashboard allows users to explore housing
+        costs but does not calculate individual household
+        affordability or include all living expenses,
+        such as utilities and transportation costs.
+    </li>
+
+    <li>
+        <strong>Decision-Making:</strong>
+        The dashboard is intended for informational
+        and educational purposes. Users should verify
+        current housing prices and local conditions
+        before making housing decisions.
+    </li>
+</ul>
+
+        </section>
+
+        <!-- Section 8 -->
+
+        <section id="project-team">
+
+            <h2>8. Project Team</h2>
+             <p>
+        HomeScope Tempe was developed as a collaborative
+        team project for GIS 494/598: WebGIS at Arizona
+        State University, School of Geographical Sciences
+        and Urban Planning, Fall 2026.
+    </p>
+
+    <!-- Project team table -->
+
+    <div style="overflow-x: auto; margin: 20px 0;">
+
+        <table style="width: 100%;
+                      border-collapse: collapse;
+                      font-size: 0.95rem;">
+
+            <thead style="background: #294f61; color: white;">
+                <tr>
+                    <th style="padding: 12px; text-align: left;">
+                        Team Member
+                    </th>
+
+                    <th style="padding: 12px; text-align: left;">
+                        Project Responsibilities
+                    </th>
+
+                    <th style="padding: 12px; text-align: left;">
+                        Contact
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr style="background: #ffffff;">
+                    <td>Nikita Soni</td>
+                    <td>Frontend UI Design, Data Collection,
+                        Project Coordination, and User Guide</td>
+                    <td>
+                        <a href="mailto:nsoni17@asu.edu">
+                            nsoni17@asu.edu
+                        </a>
+                    </td>
+                </tr>
+
+                <tr style="background: #e8f4f2;">
+                    <td>Farhan Abbas</td>
+                    <td>Frontend Development</td>
+                    <td>
+                        <a href="mailto:fabbas12@asu.edu">
+                            fabbas12@asu.edu
+                        </a>
+                    </td>
+                </tr>
+
+                <tr style="background: #ffffff;">
+                    <td>Arjav Rawal</td>
+                    <td>Backend Development and Data Processing</td>
+                    <td>
+                        <a href="mailto:arjav@asu.edu">
+                            arjav@asu.edu
+                        </a>
+                    </td>
+                </tr>
+
+                <tr style="background: #e8f4f2;">
+                    <td>Nathan Dejonge</td>
+                    <td>Backend Development</td>
+                    <td>
+                        <a href="mailto:ndejonge@asu.edu">
+                            ndejonge@asu.edu
+                        </a>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <p style="font-size: 0.85rem;
+                  color: var(--muted);
+                  text-align: center;
+                  margin-top: 8px;">
+            Table 2. HomeScope Tempe project team.
+        </p>
+
+    </div>
+
+    <p>
+        For questions, feedback, or technical issues
+        related to the dashboard, please contact
+        any of the project team members listed above.
+    </p>
+
+    <style>
+        #project-team table td,
+        #project-team table th {
+            border: 1px solid var(--border);
+            padding: 12px;
+            vertical-align: top;
+        }
+
+        #project-team table a {
+            color: var(--teal);
+        }
+    </style>
+
+        </section>
+
+    </article>
+
+    <!-- Right-side clickable topics -->
+
+    <aside class="guide-topics">
+
+        <h2>On This Page</h2>
+
+        <nav aria-label="User guide topics">
+
+            <a href="#introduction">
+                <strong>1. Introduction</strong>
+            </a>
+
+            <a href="#website-navigation">
+                <strong>2. Navigating the Website</strong>
+            </a>
+
+            <div class="subtopics">
+                <a href="#logo">2.1 HomeScope Tempe Logo</a>
+                <a href="#map-menu">2.2 Map</a>
+                <a href="#about-menu">2.3 About</a>
+                <a href="#data-menu">2.4 Data</a>
+                <a href="#contact-menu">2.5 Contact</a>
+            </div>
+
+            <a href="#dashboard-overview">
+                <strong>3. Dashboard Overview</strong>
+            </a>
+
+            <div class="subtopics">
+                <a href="#left-panel">3.1 Left Panel</a>
+                <a href="#center-panel">3.2 Center Panel</a>
+                <a href="#right-panel">3.3 Right Panel</a>
+            </div>
+
+            <a href="#housing-filters">
+                <strong>4. Filter Census Block Groups</strong>
+            </a>
+
+            <div class="subtopics">
+                <a href="#monthly-rent">4.1 Monthly Rent</a>
+                <a href="#home-value">4.2 Home Value</a>
+                <a href="#amenity-filters">4.3 Amenities to Show on Map</a>
+                <a href="#apply-filters">4.4 Apply Filters</a>
+                <a href="#reset-filters">4.5 Reset Filters</a>
+            </div>
+
+            <a href="#interactive-map">
+                <strong>5. Explore Tempe Housing</strong>
+            </a>
+
+            <div class="subtopics">
+                <a href="#map-navigation">5.1 Map Navigation</a>
+                <a href="#zoom-controls">5.2 Zoom Controls</a>
+                <a href="#basemap-controls">5.3 Basemap and Layer Controls</a>
+                <a href="#map-clusters">5.4 Amenity Icons and Clusters</a>
+                <a href="#select-block-group">5.5 Selecting a Census Block Group</a>
+            </div>
+
+            <a href="#selected-block-group">
+                <strong>6. Selected Census Block Group</strong>
+            </a>
+
+            <div class="subtopics">
+                <a href="#housing-income">6.1 Housing and Income Details</a>
+                <a href="#demographics">6.2 Who Lives Here?</a>
+                <a href="#age-distribution">6.3 Age Distribution</a>
+                <a href="#nearby-amenities">6.4 Nearby Amenities</a>
+            </div>
+
+            <a href="#understanding-data">
+                <strong>7. Understanding the Data</strong>
+            </a>
+
+            <div class="subtopics">
+                <a href="#data-sources">7.1 Data Sources</a>
+                <a href="#methodology">7.2 Methodology</a>
+                <a href="#limitations">7.3 Limitations</a>
+            </div>
+
+            <a href="#project-team">
+                <strong>8. Project Team</strong>
+            </a>
+
+            <a href="#">↑ Back to Top</a>
+
+        </nav>
+
+    </aside>
+
+</div>
+
+</main>
+<!-- Project disclaimer footer -->
+
+<footer style="border-top: 1px solid var(--border);
+               padding: 20px 24px;
+               margin-top: 32px;
+               text-align: center;
+               font-family: var(--font-body);
+               font-size: 0.85rem;
+               color: var(--muted);">
+
+    <p>
+        HomeScope Tempe is a student project developed for
+        GIS 494/598: WebGIS at Arizona State University,
+        Fall 2026. It is not an official ASU product.
+    </p>
+
+    <p>
+        Project source code:
+        <a href="https://github.com/farhan184110/webgis-final-project"
+           target="_blank"
+           rel="noopener noreferrer"
+           style="color: var(--teal);">
+            GitHub Repository
+        </a>
+    </p>
+
+</footer>
+
+</body>
+
+</html>
