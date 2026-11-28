@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An interactive platform to explore housing costs and amenities in Tempe, Arizona."
+    />
+    <title>HomeScope Tempe | Housing and Neighborhood Explorer</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+    />
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="" />
+        <span>HomeScope Tempe</span>
+      </a>
+      <p class="tagline">
+        Explore Housing, People, and Nearby Amenities in Tempe
+      </p>
+
+      <nav aria-label="Main">
+        <a href="index.html" aria-current="page">Map</a>
+        <button type="button" id="open-about">About</a>
+        <button type="button" id="open-data">Data</a>
+        <button type="button" id="open-contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main-content" class="dashboard">
+      <aside class="filter-panel" aria-labelledby="filter-heading">
+        <h1 id="filter-heading">Filter Census Block Groups</h1>
+        <form id="housing-filters">
+          <fieldset>
+            <legend>Monthly Rent (Median)</legend>
+              <label class="spatial-layers">
+                <input type="checkbox" id="use-rent" checked />Filter by monthly rent</label>
+            <div class="range-inputs">
+              <div class="field">
+                <label for="rent-min">Minimum Rent ($/Month)</label>
+                <input
+                  type="text"
+                  inputmode="numeric"
+                  id="rent-min"
+                  name="rent-min"
+                  value="1000"
+                />
+              </div>
+              <div class="field">
+                <label for="rent-max">Maximum Rent ($/Month)</label>
+                <input
+                  type="text"
+                  inputmode="numeric"
+                  id="rent-max"
+                  name="rent-max"
+                  value="2000"
+                />
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Home Value (Median)</legend>
+            <label class="spatial-layers">
+              <input type="checkbox" id="use-value" />Filter by home value</label>
+            <div class="range-inputs">
+              <div class="field">
+                <label for="value-min">Minimum Home Value ($)</label>
+                <input
+                  type="text"
+                  inputmode="numeric"
+                  id="value-min"
+                  name="value-min"
+                  value="200000"
+                />
+              </div>
+              <div class="field">
+                <label for="value-max">Maximum Home Value ($)</label>
+                <input
+                  type="text"
+                  inputmode="numeric"
+                  id="value-max"
+                  name="value-max"
+                  value="500000"
+                />
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Amenities to Show on Map</legend>
+            <label class="spatial-layers">
+              <input type="checkbox" data-layer="transit" checked />
+              Transit Stops
+            </label>
+            <label class="spatial-layers">
+              <input type="checkbox" data-layer="schools" checked />
+              Schools
+            </label>
+            <label class="spatial-layers">
+              <input type="checkbox" data-layer="grocery" checked />
+              Grocery Stores
+            </label>
+            <label class="spatial-layers">
+              <input type="checkbox" data-layer="healthcare" checked />
+              Hospitals & Clinics
+            </label>
+            <label class="spatial-layers">
+              <input type="checkbox" data-layer="parks" />
+              Parks
+            </label>
+          </fieldset>
+
+          <div class="filter-actions">
+            <button type="submit">Apply Filters</button>
+            <button type="reset">Reset Filters</button>
+          </div>
+
+          <p id="filter-status" role="status"></p>
+        </form>
+      </aside>
+
+      <section class="map-panel" aria-labelledby="map-heading">
+        <h2 id="map-heading">Explore Tempe Housing</h2>
+        <p id="map-status" role="status">Loading map...</p>
+
+        <div class="map-wrapper">
+          <div
+            id="map"
+            role="region"
+            aria-label="Map of Tempe blockgroups and amenities"
+          ></div>
+        </div>
+      </section>
+
+      <aside class="details-panel" aria-labelledby="details-heading">
+        <h2 id="details-heading">Selected Census Block Group</h2>
+        <p id="selection-status" role="status">
+          Select a census block group on the map to view details.
+        </p>
+        <p id="selected-geoid"></p>
+
+        <section class="housing-summary" aria-labelledby="housing-heading">
+          <h3 id="housing-heading">Housing and Income Details</h3>
+          <dl class="metric-cards">
+            <div class="metric-card">
+              <dt>Median Monthly Rent</dt>
+              <dd id="selected-rent">-</dd>
+            </div>
+
+            <div class="metric-card">
+              <dt>Median Home Value</dt>
+              <dd id="selected-value">-</dd>
+            </div>
+
+            <div class="metric-card">
+              <dt>Median Household Income</dt>
+              <dd id="selected-income">-</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="demographics" aria-labelledby="demographics-heading">
+          <h3 id="demographics-heading">Who Lives Here?</h3>
+          <dl class="stat-list">
+            <div>
+              <dt>Population</dt>
+              <dd id="selected-population">-</dd>
+            </div>
+            <div>
+              <dt>Median Age</dt>
+              <dd id="selected-age">-</dd>
+            </div>
+            <div>
+              <dt>Renter-Occupied Homes</dt>
+              <dd id="selected-renters">-</dd>
+            </div>
+            <div>
+              <dt>Owner-Occupied Homes</dt>
+              <dd id="selected-owners">-</dd>
+            </div>
+          </dl>
+
+          <h4 id="age-heading">Age Distribution</h4>
+          <!-- A sample chart is being inserted in place of the actual data chart which will be connected from JS-->
+          <div class="age-bar" role="img">
+            <span id="age-bar-under18" class="age-segment age-under18"></span>
+            <span id="age-bar-18-39" class="age-segment age-18-39"></span>
+            <span id="age-bar-40-64" class="age-segment age-40-64"></span>
+            <span id="age-bar-65plus" class="age-segment age-65plus"></span>
+          </div>
+          <dl class="stat-list age-list" aria-labelledby="age-heading">
+            <div>
+              <dt>Under 18</dt>
+              <dd id="selected-age-under18">-</dd>
+            </div>
+            <div>
+              <dt>18-39</dt>
+              <dd id="selected-age-18-39">-</dd>
+            </div>
+            <div>
+              <dt>40-64</dt>
+              <dd id="selected-age-40-64">-</dd>
+            </div>
+            <div>
+              <dt>65+</dt>
+              <dd id="selected-age-65plus">-</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="nearby" aria-labelledby="nearby-heading">
+          <h3 id="nearby-heading">Nearby (within 1 mile)</h3>
+          <p class="nearby-note">
+            Measured from the selected block groups's centroid
+          </p>
+          <dl class="stat-list nearby-list">
+            <div>
+              <dt>Transit Stops</dt>
+              <dd id="nearby-transit">-</dd>
+            </div>
+            <div>
+              <dt>Schools</dt>
+              <dd id="nearby-schools">-</dd>
+            </div>
+            <div>
+              <dt>Grocery Stores</dt>
+              <dd id="nearby-groceries">-</dd>
+            </div>
+            <div>
+              <dt>Hospitals & Clinics</dt>
+              <dd id="nearby-healthcare">-</dd>
+            </div>
+            <div>
+              <dt>Parks</dt>
+              <dd id="nearby-parks">-</dd>
+            </div>
+          </dl>
+        </section>
+      </aside>
+    </main>
+
+    <dialog id="about-dialog" aria-labelledby="about-title">
+      <div class="dialog-header">
+        <h2 id="about-title">About HomeScope Tempe</h2>
+        <button
+        type="button"
+        id="close-about"
+        class="dialog-close"
+        aria-label="Close About"
+        >
+        &times;
+      </button>
+      </div>
+      <div class="dialog-content">
+        <p>
+          HomeScope Tempe is a student-developed WebGIS dashboard for
+      exploring housing costs, population characteristics, and nearby
+      amenities in Tempe, Arizona.
+        </p>
+        <p>
+          Use the map to explore census block groups, compare housing
+      indicators, and locate transit stops, schools, grocery stores,
+      healthcare facilities, and parks.
+        </p>
+        <h3>Understanding the information</h3>
+        <p>
+          Census block groups are statistical areas and do not necessarily
+      represent neighborhood boundaries. Area-level statistics describe
+      the block group as a whole, not individual homes or residents.
+        </p>
+        <p>
+          Nearby amenities are measured within a one-mile straight-line
+      radius of the selected block group's centroid. This does not
+      represent walking distance or travel time.
+        </p>
+        <p>
+          This dashboard is a work in progress. Any sample values are
+      provided for demonstration and should not be used for housing
+      decisions.
+        </p>
+      </div>
+    </dialog>
+
+    <dialog id="data-dialog" aria-labelledby="data-title">
+    <div class="dialog-header">
+    <h2 id="data-title">Data Sources</h2>
+    <button
+      type="button"
+      id="close-data"
+      class="dialog-close"
+      aria-label="Close Data Sources"
+    >
+      &times;
+    </button>
+    </div>
+
+    <div class="dialog-content">
+    <p>
+      HomeScope Tempe combines census block group information with
+      locations of nearby amenities.
+    </p>
+
+    <dl class="source-list">
+      <dt>Housing and Demographics</dt>
+      <dd>
+        Census block group boundaries and housing and population
+        indicators. U.S. Census Bureau.
+      </dd>
+
+      <dt>Transit Stops</dt>
+      <dd>
+        Valley Metro
+      </dd>
+
+      <dt>Schools</dt>
+      <dd>
+        Arizona Department of Education via AZGeo
+      </dd>
+
+      <dt>Grocery Stores</dt>
+      <dd>
+        Maricopa Association of Governments (MAG)
+      </dd>
+
+      <dt>Hospitals and Clinics</dt>
+      <dd>
+        Arizona Department of Health Services via AZGeo
+      </dd>
+
+      <dt>Parks</dt>
+      <dd>
+        City of Tempe
+      </dd>
+
+      <dt>Basemaps</dt>
+      <dd>
+        OpenStreetMap contributors and USGS The National Map.
+      </dd>
+    </dl>
+
+    <h3>Data Limitations</h3>
+    <p>
+      Indicators describe census block groups, not individual homes.
+    </p>
+    </div>
+    </dialog>
+
+    <dialog id="contact-dialog" aria-labelledby="contact-title">
+    <div class="dialog-header">
+    <h2 id="contact-title">Contact the Team</h2>
+    <button
+      type="button"
+      id="close-contact"
+      class="dialog-close"
+      aria-label="Close Contact"
+    >
+      &times;
+    </button>
+    </div>
+
+    <div class="dialog-content">
+    <p>
+      HomeScope Tempe is a student-developed WebGIS project at the School of Geographical Sciences and Urban Planning.
+    </p>
+
+    <h3>Questions or Feedback?</h3>
+    <p>
+      Contact our team with questions, suggestions, or reports of
+      missing or incorrect information.
+    </p>
+
+    <h3>Project Team</h3>
+    <ul>
+      <li>Nikita Soni - <a href="mailto:nsoni17@asu.edu">nsoni17@asu.edu</a></li>
+      <li>Farhan Abbas - <a href="mailto:fabbas12@asu.edu">fabbas12@asu.edu</a></li>
+      <li>Arjav Rawal - <a href="mailto:arjav@asu.edu">arjav@asu.edu</a></li>
+      <li>Nathan Dejonge - <a href="mailto:ndejonge@asu.edu">ndejonge@asu.edu</a></li>
+    </ul>
+    </div>
+    </dialog>
+  </body>
+</html>

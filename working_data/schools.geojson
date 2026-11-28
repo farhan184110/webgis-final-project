@@ -1,0 +1,2725 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.884143,
+          33.353099,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Jordan Center for Early Education",
+        "GradesServed": "KG",
+        "SchoolClass": "District",
+        "PAddress": "3320 N Carriage Ln",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.871043,
+          33.388525,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Arizona Agribusiness & Equine Center, Inc. - Mesa",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1833 W Southern Ave",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.894489,
+          33.394095,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Valley Preparatory Academy",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "2150 E Southern Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.993889,
+          33.412395,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "South Phoenix Prep and Arts Academy",
+        "GradesServed": "K-4",
+        "SchoolClass": "Charter",
+        "PAddress": "4039 E Raymond St",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.993889,
+          33.412395,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "South Valley Prep and Arts School",
+        "GradesServed": "5-8",
+        "SchoolClass": "Charter",
+        "PAddress": "4039 E Raymond St",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98552,
+          33.387629,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Nevitt Elementary School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "4525 E St Anne",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.975389,
+          33.354195,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "BASIS Ahwatukee",
+        "GradesServed": "4-12",
+        "SchoolClass": "Charter",
+        "PAddress": "10210 S 50th Pl",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.971789,
+          33.393295,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Pinnacle High School - Tempe",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "2224 W Southern Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.962113,
+          33.370722,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Frank Elementary School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "8409 S Avenida del Yaqui",
+        "PCity": "Guadalupe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.957989,
+          33.323695,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Kyrene de las Manitas School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "1201 W Courtney Ln",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.960165,
+          33.410394,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Holdeman Elementary School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "1326 W 18th St",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.955989,
+          33.417595,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Gililland Middle School",
+        "GradesServed": "6-8",
+        "SchoolClass": "District",
+        "PAddress": "1025 S Beck Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.952189,
+          33.371595,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Wood School",
+        "GradesServed": "K-5",
+        "SchoolClass": "District",
+        "PAddress": "727 W Cornell Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.955089,
+          33.424995,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Scales Technology Academy",
+        "GradesServed": "K-5",
+        "SchoolClass": "District",
+        "PAddress": "1115 W 5th St",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94862,
+          33.364919,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Compadre High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "500 W Guadalupe Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94862,
+          33.364919,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "EVIT - Compadre High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "500 W Guadalupe Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.937299,
+          33.312955,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Kyrene de la Mirada School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "5500 W Galveston St",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.935889,
+          33.326795,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Kyrene de la Mariposa School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "50 E Knox Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.892847,
+          33.317253,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Paragon Science Academy",
+        "GradesServed": "K-12",
+        "SchoolClass": "Charter",
+        "PAddress": "2975 W Linda Ln",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934889,
+          33.369995,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Aguilar School",
+        "GradesServed": "K-5",
+        "SchoolClass": "District",
+        "PAddress": "5800 S Forest Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.935332,
+          33.403862,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Tempe Academy of International Studies McKemy Campus",
+        "GradesServed": "6-8",
+        "SchoolClass": "District",
+        "PAddress": "2250 S College Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.941726,
+          33.409597,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "EVIT - Tempe High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "1730 S Mill Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934137,
+          33.404692,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Broadmor Elementary School",
+        "GradesServed": "K-5",
+        "SchoolClass": "District",
+        "PAddress": "311 E Aepli Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.930189,
+          33.386995,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Carminati School",
+        "GradesServed": "K-5",
+        "SchoolClass": "District",
+        "PAddress": "4001 S McAllister Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.941726,
+          33.409597,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Tempe High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "1730 S Mill Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.930289,
+          33.457795,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Integrity Education Centre",
+        "GradesServed": "K-12",
+        "SchoolClass": "Charter",
+        "PAddress": "515 E Continental Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.926795,
+          33.326122,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "EVIT - Corona Del Sol High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "1001 E Knox Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.926795,
+          33.326122,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Corona Del Sol High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "1001 E Knox Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.924912,
+          33.449905,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Student Choice High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1833 N Scottsdale Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.922189,
+          33.406895,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "International Commerce High School - Tempe",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1105 E Broadway Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.921503,
+          33.365248,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "EVIT - Marcos De Niza High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "6000 S Lakeshore Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.920589,
+          33.446295,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Laird Elementary School",
+        "GradesServed": "K-6",
+        "SchoolClass": "District",
+        "PAddress": "1500 N Scovel St",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.921503,
+          33.365248,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Marcos De Niza High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "6000 S Lakeshore Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.921789,
+          33.342395,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Kyrene Middle School",
+        "GradesServed": "6-8",
+        "SchoolClass": "District",
+        "PAddress": "1050 E Carver Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.921789,
+          33.342395,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "C I Waggoner School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "1050 E Carver Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.919789,
+          33.353895,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Kyrene de los Ninos School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "1330 E Dava Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.919189,
+          33.415095,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "New School for the Arts Middle School",
+        "GradesServed": "6-8",
+        "SchoolClass": "Charter",
+        "PAddress": "1216 E Apache Blvd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.919189,
+          33.415095,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "New School for the Arts",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1216 E Apache Blvd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.937378,
+          33.459013,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Tonalea K-8",
+        "GradesServed": "PSD-8",
+        "SchoolClass": "District",
+        "PAddress": "6720 E Continental Dr",
+        "PCity": "Scottsdale",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.922189,
+          33.406895,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Humanities and Science High School - Tempe",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1105 E Broadway Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.918289,
+          33.392595,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Tempe Preparatory Academy",
+        "GradesServed": "6-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1251 E Southern Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.917989,
+          33.369795,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Rover Elementary School",
+        "GradesServed": "K-8",
+        "SchoolClass": "District",
+        "PAddress": "1300 E Watson Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.918972,
+          33.315161,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Kyrene Aprende Middle School",
+        "GradesServed": "6-8",
+        "SchoolClass": "District",
+        "PAddress": "777 N Desert Breeze Blvd E",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.917771,
+          33.314171,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Kyrene de las Brisas School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "777 N Desert Breeze Blvd E ",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.917589,
+          33.326695,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Kyrene del Cielo School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "1350 N Lakeshore Dr",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.916889,
+          33.390995,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Hudson Elementary School",
+        "GradesServed": "K-5",
+        "SchoolClass": "District",
+        "PAddress": "1325 E Malibu Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.914189,
+          33.369795,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Fees College Preparatory Middle School",
+        "GradesServed": "6-8",
+        "SchoolClass": "District",
+        "PAddress": "1600 E Watson Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.916143,
+          33.38416,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Arredondo Elementary School",
+        "GradesServed": "K-5",
+        "SchoolClass": "District",
+        "PAddress": "1330 E Carson Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.916589,
+          33.456195,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Yavapai Elementary School",
+        "GradesServed": "PSD-6",
+        "SchoolClass": "District",
+        "PAddress": "701 N MIller Rd",
+        "PCity": "Scottsdale",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.916889,
+          33.358195,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Kyrene del Norte School",
+        "GradesServed": "PSD-5",
+        "SchoolClass": "District",
+        "PAddress": "1331 E Redfield Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.910589,
+          33.369995,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "James Madison Preparatory School",
+        "GradesServed": "6-12",
+        "SchoolClass": "Charter",
+        "PAddress": "5815 S McClintock Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.913789,
+          33.349595,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Center for Educational Excellence",
+        "GradesServed": "K-8",
+        "SchoolClass": "Charter",
+        "PAddress": "1700 E Elliot Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.901089,
+          33.387195,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Ward Traditional Academy",
+        "GradesServed": "K-8",
+        "SchoolClass": "District",
+        "PAddress": "1965 E Hermosa Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.899789,
+          33.404695,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Connolly Middle School",
+        "GradesServed": "6-8",
+        "SchoolClass": "District",
+        "PAddress": "2002 E Concorda Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.900689,
+          33.372495,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Fuller Elementary School",
+        "GradesServed": "K-5",
+        "SchoolClass": "District",
+        "PAddress": "1975 E Cornell Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.901389,
+          33.403295,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Curry Elementary School",
+        "GradesServed": "K-5",
+        "SchoolClass": "District",
+        "PAddress": "1974 E Meadow Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.906601,
+          33.398201,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Mcclintock High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "1830 E Del Rio Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.906601,
+          33.398201,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "EVIT - McClintock High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "1830 E Del Rio Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.895551,
+          33.4179,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Flora Thew Elementary School",
+        "GradesServed": "K-6",
+        "SchoolClass": "District",
+        "PAddress": "2130 E Howe Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.881527,
+          33.399531,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Roosevelt Elementary School",
+        "GradesServed": "PSD-6",
+        "SchoolClass": "District",
+        "PAddress": "828 S Valencia",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.886789,
+          33.326695,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Chandler Traditional Academy - Goodman",
+        "GradesServed": "PSD-6",
+        "SchoolClass": "District",
+        "PAddress": "2600 W Knox",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.884143,
+          33.353099,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Jordan Elementary School",
+        "GradesServed": "PSD-6",
+        "SchoolClass": "District",
+        "PAddress": "3320 N Carriage Ln",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.880179,
+          33.384276,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Washington Elementary School",
+        "GradesServed": "K-6",
+        "SchoolClass": "District",
+        "PAddress": "2260 W Isabella Ave",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.870498,
+          33.418838,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Webster Elementary School",
+        "GradesServed": "PSD-6",
+        "SchoolClass": "District",
+        "PAddress": "202 N Sycamore",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.869953,
+          33.380673,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Rhodes Junior High School",
+        "GradesServed": "7-9",
+        "SchoolClass": "District",
+        "PAddress": "1860 S Longmore",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.864258,
+          33.412975,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "EVIT - East Valley Institute of Technology",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "1601 W Main St",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.866974,
+          33.401347,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Adams Elementary School",
+        "GradesServed": "PSD-6",
+        "SchoolClass": "District",
+        "PAddress": "738 S Longmore",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.865089,
+          33.428595,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Whittier Elementary School",
+        "GradesServed": "PSD-6",
+        "SchoolClass": "District",
+        "PAddress": "733 N Longmore",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.851966,
+          33.422963,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Emerson Elementary School",
+        "GradesServed": "K-6",
+        "SchoolClass": "District",
+        "PAddress": "415 N Westwood Rd",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.851414,
+          33.4256,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Carson Junior High School",
+        "GradesServed": "7-9",
+        "SchoolClass": "District",
+        "PAddress": "525 N Westwood",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.850273,
+          33.4291,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Westwood High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "945 W Rio Salado Pkwy",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.921389,
+          33.423295,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "ASU Preparatory Academy Digital",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1130 E University Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94862,
+          33.364919,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "ASU Preparatory Academy Compadre",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "500 W Guadalupe Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.894489,
+          33.394095,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "EdOptions HS Learning Center",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "2150 E Southern Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.922189,
+          33.406895,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Humanities and Sciences Academy Arizona",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1105 E Broadway Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.914689,
+          33.401795,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Meyer Montessori",
+        "GradesServed": "K-6",
+        "SchoolClass": "District",
+        "PAddress": "2615 S Dorsey Ln",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.971789,
+          33.393295,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Pinnacle Online High School",
+        "GradesServed": "6-12",
+        "SchoolClass": "Charter",
+        "PAddress": "2224 W Southern Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94862,
+          33.364919,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "TAPBI",
+        "GradesServed": "9-12",
+        "SchoolClass": "District",
+        "PAddress": "500 W Guadalupe Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.975389,
+          33.354195,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Valiant Academy",
+        "GradesServed": "K-8",
+        "SchoolClass": "Charter",
+        "PAddress": "10210 S 50th Pl",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.950579,
+          33.371407,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "City of Tempe Kid Zone Preschool",
+        "GradesServed": "PS",
+        "SchoolClass": "District",
+        "PAddress": "625 W Cornell Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.950579,
+          33.371407,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Getz School",
+        "GradesServed": "PSD-8",
+        "SchoolClass": "District",
+        "PAddress": "625 W Cornell Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.908838,
+          33.362731,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "ABA Chandler",
+        "GradesServed": "N/A",
+        "SchoolClass": "Alternative",
+        "PAddress": "1835 E Guadalupe Rd, Ste 103",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.886287,
+          33.335351,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "FBC / ASDB Cooperative Preschool",
+        "GradesServed": "PSD-4",
+        "SchoolClass": "Alternative",
+        "PAddress": "2005 N 91st Pl",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.880671,
+          33.414996,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "La Mesita Head Start",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "2254 W Main St",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.925753,
+          33.405083,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Our Lady of Mount Carmel Catholic School",
+        "GradesServed": "K-8",
+        "SchoolClass": "Private",
+        "PAddress": "2117 S Rural Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.877067,
+          33.323744,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Seton Catholic Preparatory High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "Private",
+        "PAddress": "1150 N Dobson Rd",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.910064,
+          33.459522,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Ville De Marie Academy",
+        "GradesServed": "K-8",
+        "SchoolClass": "Private",
+        "PAddress": "7940 E Roosevelt St",
+        "PCity": "Scottsdale",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.918829,
+          33.393342,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Grace Community Christian School",
+        "GradesServed": "PK-8",
+        "SchoolClass": "Private",
+        "PAddress": "1200 E Southern Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.92585,
+          33.363334,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Gethsemane Lutheran School",
+        "GradesServed": "PK-8",
+        "SchoolClass": "Private",
+        "PAddress": "1035 E Guadalupe Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.961247,
+          33.313353,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Valley Christian High School",
+        "GradesServed": "9-12",
+        "SchoolClass": "Private",
+        "PAddress": "6900 W Galveston Rd",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.949715,
+          33.392036,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Emmanuel Lutheran School",
+        "GradesServed": "K-8",
+        "SchoolClass": "Private",
+        "PAddress": "715 W Southern Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.884657,
+          33.335642,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Cathedral of Praise Christian Church School",
+        "GradesServed": "N/A",
+        "SchoolClass": "Private",
+        "PAddress": "2400 W Warner Rd",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.887511,
+          33.407167,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Tempe Montessori School",
+        "GradesServed": "PK-5",
+        "SchoolClass": "Private",
+        "PAddress": "410 S El Dorado Rd",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.975297,
+          33.334833,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Desert Garden Montessori School",
+        "GradesServed": "PK-10",
+        "SchoolClass": "Private",
+        "PAddress": "5130 E Warner Rd",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.889452,
+          33.41077,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Austin Centers For Exceptional Students - Tempe Campus",
+        "GradesServed": "K-12",
+        "SchoolClass": "Private",
+        "PAddress": "1515 S Indian Bend Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.992743,
+          33.375808,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Arizona Cultural Academy",
+        "GradesServed": "PK-12",
+        "SchoolClass": "Private",
+        "PAddress": "7810 S 42nd Pl",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.877429,
+          33.355198,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Desert Jewish Academy",
+        "GradesServed": "K-6",
+        "SchoolClass": "Private",
+        "PAddress": "3400 N Dobson Rd",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.961648,
+          33.418145,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Banner Childrens Academy",
+        "GradesServed": "K-12",
+        "SchoolClass": "Private",
+        "PAddress": "1410 W 10th Pl",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.955773,
+          33.404021,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Noor Academy of Arizona",
+        "GradesServed": "K-8",
+        "SchoolClass": "Private",
+        "PAddress": "1130 W 23rd St",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.893297,
+          33.40331,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "The French American School of Arizona",
+        "GradesServed": "PK-5",
+        "SchoolClass": "Private",
+        "PAddress": "2222 S Price Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.909947,
+          33.459417,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "St Daniel The Prophet School",
+        "GradesServed": "K-8",
+        "SchoolClass": "Private",
+        "PAddress": "1030 N Hayden Rd",
+        "PCity": "Scottsdale",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.893937,
+          33.393398,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Az Aspire Academy",
+        "GradesServed": "1-12",
+        "SchoolClass": "Private",
+        "PAddress": "2150 E Southern Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.902061,
+          33.415279,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Esperanza Prep",
+        "GradesServed": "K-8",
+        "SchoolClass": "District",
+        "PAddress": "1938 E Apache Blvd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.893297,
+          33.40331,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "The French American Academy of Arizona",
+        "GradesServed": "K-5",
+        "SchoolClass": "Charter",
+        "PAddress": "2222 S Price Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.914161,
+          33.462403,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Chrysalis Acad Day School For Children With Autism",
+        "GradesServed": "1-12",
+        "SchoolClass": "Private",
+        "PAddress": "1250 N 77th St",
+        "PCity": "Scottsdale",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.927859,
+          33.327706,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Joyful Beginnings Academy",
+        "GradesServed": "P-K",
+        "SchoolClass": "Private",
+        "PAddress": "9325 S Rural Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.97955,
+          33.347416,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Grace Garden Christian Preschool",
+        "GradesServed": "P-K",
+        "SchoolClass": "Private",
+        "PAddress": "10841 S 48th St",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.915775,
+          33.348201,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Dayspring Preschool & Kindergarten",
+        "GradesServed": "P-K",
+        "SchoolClass": "Private",
+        "PAddress": "1365 E Elliot Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.893331,
+          33.362542,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Mesa Montessori",
+        "GradesServed": "P-K",
+        "SchoolClass": "Private",
+        "PAddress": "2830 S Carriage Ln",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.988655,
+          33.407882,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Phoenix International Academy",
+        "GradesServed": "4-8",
+        "SchoolClass": "Charter",
+        "PAddress": "4310 E Broadway Rd",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.961648,
+          33.418145,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Banner Academy",
+        "GradesServed": "4-12",
+        "SchoolClass": "Alternative",
+        "PAddress": "1410 W 10th Pl",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.946974,
+          33.337327,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Kyrene Digital Academy",
+        "GradesServed": "K-8",
+        "SchoolClass": "District",
+        "PAddress": "8700 S Kyrene Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.913143,
+          33.414606,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Educational Models for Learning -  Arizona",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1525 E Apache Blvd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.950483,
+          33.365342,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Compadre MCHS",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "500 W Guadalupe Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.963103,
+          33.370153,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Frank MCHS",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "8409 S Avenida Del Yaqui",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.920651,
+          33.446269,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "North Tempe MCHS",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "1555 N Bridalwreath St",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.948681,
+          33.425405,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Westside Generational MCHS",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "715 W 5th St",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.866431,
+          33.401309,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Adams MCHS",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "738 S Longmore",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.878147,
+          33.321223,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Tutor Time Chandler 6080 MCHS CCP",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "2050 W Ray Rd",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.911033,
+          33.318568,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Tutor Time Chandler 6096 MCHS CCP",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "905 N Mcclintock Dr",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87321,
+          33.394692,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "1st Academy Preschool & Childcare",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "1133 S Dobson Rd, #100",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.977734,
+          33.392701,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Mi Escuelita Child Care",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "2747 W Southern Ave",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.963103,
+          33.370153,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Guadalupe Head Start",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "8409 S Avenida Del Yaqui",
+        "PCity": "Guadalupe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.901242,
+          33.403203,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Tempe-Curry Head Start",
+        "GradesServed": "PS",
+        "SchoolClass": "Early Education",
+        "PAddress": "1974 E Meadow Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.864118,
+          33.388513,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "AAEC Online",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1440 S Longmore",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.977284,
+          33.446692,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Great Hearts Online - Arizona",
+        "GradesServed": "K-8",
+        "SchoolClass": "Charter",
+        "PAddress": "4801 E Washington St Ste 250",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.885942,
+          33.335392,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "ASDB - ELP FBC East Valley Preschool",
+        "GradesServed": "PS",
+        "SchoolClass": "Alternative",
+        "PAddress": "2005 N 91st Pl",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.914202,
+          33.370033,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Tempe Elementary Online Community",
+        "GradesServed": "K-8",
+        "SchoolClass": "District",
+        "PAddress": "1600 E Watson Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.977571,
+          33.44656,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Great Hearts Academy - Archway North Phoenix",
+        "GradesServed": "N/A",
+        "SchoolClass": "",
+        "PAddress": "4801 E Washington St Ste 250",
+        "PCity": "Phoenix",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89721,
+          33.457036,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "East Valley Academy",
+        "GradesServed": "N/A",
+        "SchoolClass": "",
+        "PAddress": "910 N 85th Pl",
+        "PCity": "Scottsdale",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934573,
+          33.422206,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Asu Preparatory Academy",
+        "GradesServed": "N/A",
+        "SchoolClass": "",
+        "PAddress": "300 E University",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.86539,
+          33.414655,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Paul Revere Academy",
+        "GradesServed": "9-12",
+        "SchoolClass": "Charter",
+        "PAddress": "1601 W Main St",
+        "PCity": "Mesa",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.950287,
+          33.364228,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "S.E.L.F. Program",
+        "GradesServed": "9-12",
+        "SchoolClass": "Alternative",
+        "PAddress": "500 W Guadalupe Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.908523,
+          33.397051,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "S.E.L.F.  A Program",
+        "GradesServed": "9-12",
+        "SchoolClass": "Alternative",
+        "PAddress": "1830 E Del Rio Dr",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.910501,
+          33.318108,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Chandler Jewish Preschool / Kindergarten",
+        "GradesServed": "PS-K",
+        "SchoolClass": "Private",
+        "PAddress": "875 N Mcclintock Dr",
+        "PCity": "Chandler",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.895393,
+          33.365152,
+          0
+        ]
+      },
+      "properties": {
+        "SchoolName": "Valley Christian Elementary School",
+        "GradesServed": "K-8",
+        "SchoolClass": "Private",
+        "PAddress": "6304 S Price Rd",
+        "PCity": "Tempe",
+        "Status": "Open",
+        "EntityType": "School"
+      }
+    }
+  ]
+}

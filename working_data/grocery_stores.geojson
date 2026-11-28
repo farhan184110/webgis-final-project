@@ -1,0 +1,515 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.930187,
+          33.321962
+        ]
+      },
+      "properties": {
+        "EmpName": "Frys Food Stores",
+        "Employees": 193,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.92492,
+          33.393972
+        ]
+      },
+      "properties": {
+        "EmpName": "Frys Food Stores",
+        "Employees": 167,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.913126,
+          33.466817
+        ]
+      },
+      "properties": {
+        "EmpName": "Frys Food Stores",
+        "Employees": 163,
+        "Jurisdiction": "Scottsdale"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.892797,
+          33.318631
+        ]
+      },
+      "properties": {
+        "EmpName": "Whole Foods Market",
+        "Employees": 153,
+        "Jurisdiction": "Chandler"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.909593,
+          33.362372
+        ]
+      },
+      "properties": {
+        "EmpName": "Frys Food Stores",
+        "Employees": 147,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.910526,
+          33.379446
+        ]
+      },
+      "properties": {
+        "EmpName": "Frys Food Stores",
+        "Employees": 134,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.912555,
+          33.333509
+        ]
+      },
+      "properties": {
+        "EmpName": "Bashas",
+        "Employees": 130,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.911521,
+          33.394512
+        ]
+      },
+      "properties": {
+        "EmpName": "Sprouts Farmers Market",
+        "Employees": 115,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.977098,
+          33.379125
+        ]
+      },
+      "properties": {
+        "EmpName": "Frys Food Stores",
+        "Employees": 104,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.940932,
+          33.393712
+        ]
+      },
+      "properties": {
+        "EmpName": "Frys Food Stores",
+        "Employees": 103,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.981486,
+          33.317657
+        ]
+      },
+      "properties": {
+        "EmpName": "Sprouts Farmers Market",
+        "Employees": 103,
+        "Jurisdiction": "Phoenix"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.927137,
+          33.347922
+        ]
+      },
+      "properties": {
+        "EmpName": "Sprouts Farmers Market",
+        "Employees": 100,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.925845,
+          33.40875
+        ]
+      },
+      "properties": {
+        "EmpName": "Safeway",
+        "Employees": 100,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91868,
+          33.392422
+        ]
+      },
+      "properties": {
+        "EmpName": "El Super",
+        "Employees": 99,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.875798,
+          33.413155
+        ]
+      },
+      "properties": {
+        "EmpName": "Mekong Supermarket Llc",
+        "Employees": 99,
+        "Jurisdiction": "Mesa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.981919,
+          33.34816
+        ]
+      },
+      "properties": {
+        "EmpName": "Safeway",
+        "Employees": 95,
+        "Jurisdiction": "Phoenix"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.913278,
+          33.348412
+        ]
+      },
+      "properties": {
+        "EmpName": "Safeway",
+        "Employees": 90,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.964395,
+          33.31801
+        ]
+      },
+      "properties": {
+        "EmpName": "AJs Fine Foods",
+        "Employees": 85,
+        "Jurisdiction": "Chandler"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.912646,
+          33.321717
+        ]
+      },
+      "properties": {
+        "EmpName": "Albertsons",
+        "Employees": 85,
+        "Jurisdiction": "Chandler"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.943291,
+          33.422399
+        ]
+      },
+      "properties": {
+        "EmpName": "Whole Foods Market",
+        "Employees": 84,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.876572,
+          33.377687
+        ]
+      },
+      "properties": {
+        "EmpName": "Albertsons",
+        "Employees": 82,
+        "Jurisdiction": "Mesa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.873103,
+          33.416548
+        ]
+      },
+      "properties": {
+        "EmpName": "Safeway",
+        "Employees": 80,
+        "Jurisdiction": "Mesa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.961429,
+          33.399102
+        ]
+      },
+      "properties": {
+        "EmpName": "Safeway",
+        "Employees": 71,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.950707,
+          33.377314
+        ]
+      },
+      "properties": {
+        "EmpName": "Food City",
+        "Employees": 65,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.92541,
+          33.450038
+        ]
+      },
+      "properties": {
+        "EmpName": "Food City",
+        "Employees": 65,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.979619,
+          33.391752
+        ]
+      },
+      "properties": {
+        "EmpName": "Food City",
+        "Employees": 65,
+        "Jurisdiction": "Phoenix"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.924897,
+          33.422589
+        ]
+      },
+      "properties": {
+        "EmpName": "Trader Joes Co",
+        "Employees": 65,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.978467,
+          33.330379
+        ]
+      },
+      "properties": {
+        "EmpName": "Bashas",
+        "Employees": 60,
+        "Jurisdiction": "Phoenix"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.915675,
+          33.415299
+        ]
+      },
+      "properties": {
+        "EmpName": "Food City",
+        "Employees": 50,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.912479,
+          33.361707
+        ]
+      },
+      "properties": {
+        "EmpName": "Trader Joes Co",
+        "Employees": 46,
+        "Jurisdiction": "Tempe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.941577,
+          33.319404
+        ]
+      },
+      "properties": {
+        "EmpName": "Natural Grocers",
+        "Employees": 45,
+        "Jurisdiction": "Chandler"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.872647,
+          33.413349
+        ]
+      },
+      "properties": {
+        "EmpName": "H Mart",
+        "Employees": 25,
+        "Jurisdiction": "Mesa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.872809,
+          33.409109
+        ]
+      },
+      "properties": {
+        "EmpName": "Az International Marketplace Llc",
+        "Employees": 7,
+        "Jurisdiction": "Mesa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91305,
+          33.414342
+        ]
+      },
+      "properties": {
+        "EmpName": "Aladdin Food Inc",
+        "Employees": 6,
+        "Jurisdiction": "Tempe"
+      }
+    }
+  ]
+}

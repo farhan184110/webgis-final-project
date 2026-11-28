@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.940095,
+          33.412384
+        ]
+      },
+      "properties": {
+        "FACILITY_NAME": "HONORHEALTH TEMPE MEDICAL CENTER",
+        "SUBTYPE": "SHORT TERM",
+        "ADDRESS": "1500 SOUTH MILL AVE",
+        "CITY": "TEMPE",
+        "Telephone": "(480)587-5108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.874803,
+          33.390783
+        ]
+      },
+      "properties": {
+        "FACILITY_NAME": "BANNER DESERT MEDICAL CENTER",
+        "SUBTYPE": "SHORT TERM",
+        "ADDRESS": "1400 SOUTH  DOBSON ROAD",
+        "CITY": "MESA",
+        "Telephone": "(480)412-3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.938611,
+          33.36412
+        ]
+      },
+      "properties": {
+        "FACILITY_NAME": "AURORA BEHAVIORAL HEALTHCARE-TEMPE",
+        "SUBTYPE": "PSYCHIATRIC",
+        "ADDRESS": "6350 SOUTH MAPLE AVENUE",
+        "CITY": "TEMPE",
+        "Telephone": "(480)345-5400"
+      }
+    }
+  ]
+}
